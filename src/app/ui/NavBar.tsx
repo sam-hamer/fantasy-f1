@@ -20,7 +20,7 @@ export default function NavBar() {
         </h1>
       </div>
 
-      <ul className="hidden md:flex">
+      <ul className="hidden sm:flex">
         {links.map(({ id, link }) => (
           <li
             key={id}
@@ -31,7 +31,7 @@ export default function NavBar() {
         ))}
       </ul>
 
-      <div className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden">
+      <div className="cursor-pointer pr-4 z-10 text-gray-500 sm:hidden">
         {<FaBars size={30} />}
       </div>
     </div>
