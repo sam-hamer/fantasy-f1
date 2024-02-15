@@ -8,7 +8,7 @@ export default async function SeasonPage() {
       <ul>
         {races.map((race: any) => (
           <li key={race._id.toString()} className="py-3 rounded-xl">
-            <div className="p-6 rounded-xl bg-red-700 flex flex-row">
+            <div className="p-6 rounded-xl bg-red-700 border flex flex-row">
               <p className="text-l font-medium text-white px-2 flex-grow">
                 {race.location}
               </p>
